@@ -52,7 +52,7 @@
 }
 .article {
     background: #eb8242;
-    flex:1 1 auto;
+    flex:1 1 40%;
 }
 .navegacion{
     background: #7e0cf5;
@@ -67,7 +67,15 @@
 }
 .footer {
     background: #000;
+    display: flex;
+    justify-content: center;
 }
 .pie{
     background: #ff7315;
-}
+    width: 300px;
+  } 
+  @media all and (max-width: 800px){
+      .section{
+          flex-direction: column;
+      }
+  }
