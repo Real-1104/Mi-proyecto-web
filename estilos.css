@@ -47,12 +47,16 @@
 .articulos {
      background: #da2d2d;
      flex:2 1 auto;
+     display: flex;
+     flex-flow: row wrap;
 }
 .article {
     background: #eb8242;
+    flex:1 1 auto;
 }
 .navegacion{
     background: #7e0cf5;
+    flex:1 1 100%;
 }
 .aside {
   background: #cd4dcc;
