@@ -11,7 +11,7 @@ body{
  flex-flow: column nowrap;
 }
 .header {
-    background: #000;
+    background:url(imagenes/moon_12.jpg);
     display: flex;
     flex-flow: column nowrap;
 }
