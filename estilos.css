@@ -6,6 +6,9 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+a{
+    text-decoration: none;
+}
 .padre {
  display: flex;
  flex-flow: column nowrap;
@@ -19,22 +22,25 @@ body{
     flex-flow: column nowrap;
 }
 .menu {
-    background: #3fc5f0;
+    background: rgba(0,0,0,.1);
     display: flex;
     flex-flow: row nowrap;
-    height:100px;
+    height: 100px;
     align-items: center ;
 }
-.logo{
-    background: #eef5b2;
+.logo{ 
     flex:1 1 auto;
 }
+.logo a{
+    color: #fff;
+}
+.logo a:hover{
+    color: #343434;
+}
 .nav{
-    background: #eef5b2;
     flex:5 1 auto;
 }
 .social{
-    background: #eef5b2;
     flex:1 1 auto;
 }
 .texto-principal{
