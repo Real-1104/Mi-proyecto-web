@@ -33,12 +33,18 @@ a{
 }
 .logo a{
     color: #fff;
+    font-size: 30px;
 }
 .logo a:hover{
     color: #343434;
 }
 .nav{
     flex:5 1 auto;
+}
+.nav a{
+    color: #fff;
+    font-size: 11px;
+    text-transform: uppercase;
 }
 .social{
     flex:1 1 auto;
