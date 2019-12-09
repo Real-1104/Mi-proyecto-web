@@ -16,6 +16,7 @@
     background: #3fc5f0;
     display: flex;
     flex-flow: row nowrap;
+    height:100px;
 }
 .logo{
     background: #eef5b2;
@@ -23,7 +24,7 @@
 }
 .nav{
     background: #eef5b2;
-    flex:1 1 auto;
+    flex:5 1 auto;
 }
 .social{
     background: #eef5b2;
