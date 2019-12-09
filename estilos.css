@@ -28,17 +28,14 @@ body{
 .logo{
     background: #eef5b2;
     flex:1 1 auto;
-    height:30px;
 }
 .nav{
     background: #eef5b2;
     flex:5 1 auto;
-    height:30px;
 }
 .social{
     background: #eef5b2;
     flex:1 1 auto;
-    height:30px;
 }
 .texto-principal{
     background: #6decb9;
