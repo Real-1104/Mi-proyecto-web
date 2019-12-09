@@ -5,7 +5,11 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
+<<<<<<< HEAD
 [Link to another page](https://real-1104.github.io/).
+=======
+[Link to another page](https://Real-1104.github.io/site/master/readme.md)
+>>>>>>> cff142cecbb463bbbe8029c9eae58d8766887adb
 
 There should be whitespace between paragraphs.
 
