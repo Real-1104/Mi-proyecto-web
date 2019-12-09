@@ -25,10 +25,13 @@
     background: #6decb9;
 }
  h1{
-  background: #bc4873;
+  background:  #f6da63;
  }
 .section {
     background: #000;
+}
+.articulos {
+     background: #da2d2d;
 }
 .footer {
     background: #000;
