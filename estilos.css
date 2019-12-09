@@ -33,6 +33,15 @@
 .articulos {
      background: #da2d2d;
 }
+.article {
+    background: #eb8242;
+}
+.navegacion{
+    background: #7e0cf5;
+}
+.aside {
+  background: #cd4dcc;
+}
 .footer {
     background: #000;
 }
