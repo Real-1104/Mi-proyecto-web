@@ -17,7 +17,7 @@
     display: flex;
     flex-flow: row nowrap;
     height:100px;
-    align-items: center;
+    align-items: center ;
 }
 .logo{
     background: #eef5b2;
@@ -42,9 +42,11 @@
  }
 .section {
     background: #000;
+    display: flex;
 }
 .articulos {
      background: #da2d2d;
+     flex:2 1 auto;
 }
 .article {
     background: #eb8242;
@@ -54,6 +56,7 @@
 }
 .aside {
   background: #cd4dcc;
+  flex:1 1 auto;
 }
 .publicidad{
     background: #e7a4e4;
