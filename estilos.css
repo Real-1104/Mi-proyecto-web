@@ -12,6 +12,9 @@ body{
 }
 .header {
     background:url(imagenes/moon_12.jpg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
     display: flex;
     flex-flow: column nowrap;
 }
