@@ -15,15 +15,19 @@
 .menu {
     background: #3fc5f0;
     display: flex;
+    flex-flow: row nowrap;
 }
 .logo{
     background: #eef5b2;
+    flex:1 1 auto;
 }
 .nav{
     background: #eef5b2;
+    flex:1 1 auto;
 }
 .social{
     background: #eef5b2;
+    flex:1 1 auto;
 }
 .texto-principal{
     background: #6decb9;
