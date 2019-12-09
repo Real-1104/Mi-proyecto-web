@@ -45,9 +45,19 @@ a{
     color: #fff;
     font-size: 11px;
     text-transform: uppercase;
+    padding: 0 10px;
+    letter-spacing: 2px;
+}
+.nav a:hover{
+    color: #343434;
 }
 .social{
     flex:1 1 auto;
+}
+.social a:hover{
+    font-size: 18px;
+    color: #fff;
+    padding: 0 5px;
 }
 .texto-principal{
     background: #6decb9;
