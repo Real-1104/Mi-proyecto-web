@@ -4,13 +4,17 @@
  box-sizing: border-box;
 }
 .padre {
-
+ display: flex;
+ flex-flow: column nowrap;
 }
 .header {
     background: #000;
+    display: flex;
+    flex-flow: column nowrap;
 }
 .menu {
     background: #3fc5f0;
+    display: flex;
 }
 .logo{
     background: #eef5b2;
