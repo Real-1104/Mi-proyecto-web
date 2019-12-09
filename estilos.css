@@ -68,7 +68,13 @@ a{
     background: #6decb9;
 }
  h1{
-  background:  #f6da63;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.6;
+
  }
 .section {
     background: #000;
