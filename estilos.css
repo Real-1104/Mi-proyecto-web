@@ -3,6 +3,9 @@
     padding:10px;
  box-sizing: border-box;
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 .padre {
  display: flex;
  flex-flow: column nowrap;
@@ -84,10 +87,16 @@
       }
       .aside{
           display: flex;
+          justify-content: center;
       }
   }
   @media all and (max-width: 600px){
       .articulos{
+          flex-direction: column;
+      }
+  }
+  @media all and (max-width: 400px){
+      .aside{
           flex-direction: column;
       }
   }
