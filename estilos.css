@@ -78,4 +78,16 @@
       .section{
           flex-direction: column;
       }
+      .menu{
+          flex-direction: column;
+          height: auto;
+      }
+      .aside{
+          display: flex;
+      }
+  }
+  @media all and (max-width: 600px){
+      .articulos{
+          flex-direction: column;
+      }
   }
