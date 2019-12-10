@@ -68,7 +68,7 @@ a{
     color: #343434;
 }
 .texto-principal{
-    /*background: #6decb9;*/
+    background: #6decb9;
     height: 580px;
     display: flex;
     align-items: center;
