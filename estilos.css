@@ -184,6 +184,12 @@ h4{
           display: flex;
           justify-content: center;
       }
+      h1{
+          font-size: 15px;
+      }
+      .texto-principal{
+          height: 450px;
+      }
   }
   @media all and (max-width: 600px){
       .articulos{
