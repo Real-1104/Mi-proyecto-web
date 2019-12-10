@@ -159,10 +159,11 @@ h4{
     background: #000;
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 }
 .pie{
-    background: #ff7315;
-    width: 300px;
+    /*background: #ff7315;*/
+    text-align: center;
   }
   pie a{
       color: #fff;
@@ -171,7 +172,7 @@ h4{
       padding: 0 10px;
       letter-spacing: 2px;
   }
-  @media all and (max-width: 800px){
+  @media all and (max-width: 948px){
       .section{
           flex-direction: column;
       }
