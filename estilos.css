@@ -1,6 +1,6 @@
 * {
     margin:0px;
-    padding:10px;
+    padding:0px;
  box-sizing: border-box;
 }
 body{
@@ -12,6 +12,9 @@ a{
 .padre {
  display: flex;
  flex-flow: column nowrap;
+}
+.margen-interno{
+    padding: 0 50px;
 }
 .header {
     background:url(imagenes/moon_12.jpg);
@@ -97,6 +100,9 @@ a{
     flex:1 1 45%;
     background: #ececec;
 }
+.article img{
+    width: 100%;
+}
 h3{
     color: #fff;
     font-size: 13px;
@@ -116,6 +122,9 @@ h2{
 .aside {
   background: #cd4dcc;
   flex:1 1 auto;
+}
+.aside img{
+    width: 100%;
 }
 .publicidad{
     background: #e7a4e4;
