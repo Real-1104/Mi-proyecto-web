@@ -1,4 +1,4 @@
-* {
+*{
     margin:0px;
     padding:0px;
  box-sizing: border-box;
@@ -9,14 +9,14 @@ body{
 a{
     text-decoration: none;
 }
-.padre {
+.padre{
  display: flex;
  flex-flow: column nowrap;
 }
 .margen-interno{
     padding: 0 50px;
 }
-.header {
+.header{
     background:url(imagenes/moon_12.jpg);
     background-position: center;
     background-attachment: contain;
@@ -24,7 +24,7 @@ a{
     display: flex;
     flex-flow: column nowrap;
 }
-.menu {
+.menu{
     background: rgba(0,0,0,.1);
     display: flex;
     flex-flow: row nowrap;
@@ -67,7 +67,7 @@ a{
 .social a:hover{
     color: #343434;
 }
-.texto-principal {
+.texto-principal{
     /*background: #6decb9;*/
     height: 580px;
     display: flex;
@@ -81,7 +81,7 @@ a{
   text-align: center;
   line-height: 1.6;
  }
-.section {
+.section{
     background: #000;
     display: flex;
 }
@@ -119,7 +119,7 @@ h2{
     background: #7e0cf5;
     flex:1 1 100%;
 }
-.aside {
+.aside{
   background: #cd4dcc;
   flex:1 1 auto;
 }
@@ -129,7 +129,7 @@ h2{
 .publicidad{
     background: #e7a4e4;
 }
-.footer {
+.footer{
     background: #000;
     display: flex;
     justify-content: center;
